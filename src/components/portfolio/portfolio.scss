@@ -11,12 +11,11 @@
     
 
 
-    h1{
+    h2{
         font-size: 50px;
         overflow: hidden;
         @include mobile{
             font-size: 20px;
-            margin-bottom: 50px;
         }
 
     }
@@ -66,6 +65,11 @@
             img{
                 width: 90%;
                 overflow: hidden;
+                @include mobile{
+                    width: 90px;
+                    height: 40px;
+                    overflow: hidden;
+                }
                 
             }
         }

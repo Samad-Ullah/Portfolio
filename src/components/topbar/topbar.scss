@@ -21,6 +21,11 @@
     {
         display: flex;
         justify-content: space-between;
+        h3{
+            @include mobile{
+                font-size: 10px;
+            }
+        }
       
         .logo{
             text-decoration: none;

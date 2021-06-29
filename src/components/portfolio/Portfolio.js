@@ -9,15 +9,13 @@ import Expense from "../../Assets/pet1.jpg"
 function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Web Projects</h1>
-      <ul>
-        <li>   </li>
-      </ul>
+      <h2>Web Projects</h2>
+     
       <div className="container">
-      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://halaatowaqiat.netlify.app/">
         <div className="item">
-          <img src={Halaat} alt="halat" ></img>
+          <img src={Halaat} alt="halat"></img>
           <h3>Halaat o Waqiat</h3>
         </div>
         </a>
