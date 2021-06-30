@@ -4,6 +4,7 @@ import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
 import Intro from "./components/intro/Intro";
 import Menu from "./components/menu/menu"
+import Work from "./components/works/works"
 
 function App() {
   const [menu, setmenu] = useState(false)
@@ -14,6 +15,7 @@ function App() {
       <div className="section">
         <Intro></Intro>
         <Portfolio></Portfolio>
+        <Work></Work>
         <Contact></Contact>
       </div>
 

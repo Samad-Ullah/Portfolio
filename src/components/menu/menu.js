@@ -12,8 +12,12 @@ function menu({menu , setmenu}) {
                     <a href="#portfolio">Projects</a>
                 </li>
                 <li onClick={()=>setmenu(!menu)}>
+                    <a href="#work">Work</a>
+                </li>
+                <li onClick={()=>setmenu(!menu)}>
                     <a href="#contact">Contact</a>
                 </li>
+                
             
             </ul>
         </div>
