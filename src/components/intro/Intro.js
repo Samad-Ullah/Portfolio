@@ -13,7 +13,7 @@ function Intro() {
                 backDelay:1500,
                 backSpeed:40,
                  strings: 
-                ['React', 'Redux','Angular','JavaScript','HTML','Scss' ] })
+                ['React', 'Redux','Angular','JavaScript','HTML','Sass' ] })
     }, [])
     return (
         <div className="intro" id="intro">
