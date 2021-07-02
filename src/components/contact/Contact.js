@@ -39,7 +39,7 @@ function Contact() {
                 <form onSubmit={sendEmail}>
                     <input type="test" placeholder="email" onChange={e => setemail(e.target.value)} value={email} name="email"></input>&nbsp;
                     <textarea placeholder="Message.." onChange={e => setmsg(e.target.value)} value={msg} name="message"></textarea>&nbsp;
-                    <input type="submit" value="send message"></input>
+                    <input type="submit" value="send message" className="button" ></input>
                 </form>
             </div>
         </div>
