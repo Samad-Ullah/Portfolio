@@ -2,8 +2,8 @@
 
 .portfolio{
     background-color: white;
-    width:90%;
-    height:100vh;
+    width:100%;
+    height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,53 +24,68 @@
         justify-content: center;
         overflow: hidden;
         display: flex;
-        width:100%;
+        flex-wrap: wrap;
+        width:100vw;
         flex-wrap: wrap;
         @include mobile{
             margin-bottom: 0px;
             padding-bottom: 10px;
         }
-      
-        a{
-           
-            text-decoration: none;
-            color:rgb(255, 89, 89);; 
-            font-weight: bolder;
-            overflow: hidden;
-            margin-bottom: 10px;
-            
-        }
-
-        .item{
-            box-shadow: 5px 10px 5px 0 rgba(0,0,0,0.1);
-            transition: 0.3s;
-            width: 350px;
-            height: 250px;
-            margin-bottom: 5px;
-            margin-right: 5px;
-            flex-direction: column;
-            overflow: hidden;
-
-            @include mobile{
-                width: 110px;
-                height: 90px;
+        .project{
+           margin: 15px;
+          
+            a{
+                text-decoration: none;
+                font-weight: bolder;
                 overflow: hidden;
-                flex-direction: column;
-                
-            }
-            
-            
-            img{
-                width: 90%;
-                overflow: hidden;
-                @include mobile{
-                    width: 90px;
-                    height: 40px;
+                margin-bottom: 10px;
+
+
+
+                .item{
+                    border: 5px solid rgb(235, 126, 126);
+                    border-radius: 15px;
+                    transition: 0.3s;
+                    width: 270px;
+                    height: 190px;
+                    margin-bottom: 5px;
+                    margin-right: 5px;
                     overflow: hidden;
+                    color: red;
+                    font-weight: bolder;
+                    
+                    
+        
+                    @include mobile{
+                        width: 110px;
+                        height: 90px;
+                        overflow: hidden;
+                        flex-direction: column;
+                        
+                    }                
+                    img{
+                        width: 90%;
+                        overflow: hidden;
+                        @include mobile{
+                            width: 90px;
+                            height: 40px;
+                            overflow: hidden;
+                        }
+                        
+                    }
+                }
+
+                .item:hover{
+                    
+
                 }
                 
             }
+
         }
+      
+        
+        
         
     }
 }

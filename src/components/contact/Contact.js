@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
 import './contact.scss';
 import Shake from "../../Assets/shako.png"
+import Arrow from "../../Assets/arrow.gif"
+
 function Contact() {
     var [email, setemail] = useState("");
     var [msg, setmsg] = useState(" ");
@@ -41,6 +43,12 @@ function Contact() {
                     <textarea placeholder="Message.." onChange={e => setmsg(e.target.value)} value={msg} name="message"></textarea>&nbsp;
                     <input type="submit" value="send message" className="button" ></input>
                 </form>
+                <a href="#intro">
+                    <div className="arrow">
+                        <img src={Arrow} alt="arrow" height="50" width="50"></img>
+                    </div>
+
+                </a>
             </div>
         </div>
     )
