@@ -9,10 +9,10 @@ function menu({menu , setmenu}) {
                     <a href="#intro">Home</a>
                 </li>
                 <li onClick={()=>setmenu(!menu)}>
-                    <a href="#portfolio">Projects</a>
+                    <a href="#about">About</a>
                 </li>
                 <li onClick={()=>setmenu(!menu)}>
-                    <a href="#work">Work</a>
+                    <a href="#portfolio">Projects</a>
                 </li>
                 <li onClick={()=>setmenu(!menu)}>
                     <a href="#contact">Contact</a>

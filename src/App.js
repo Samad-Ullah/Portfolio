@@ -6,6 +6,7 @@ import Intro from "./components/intro/Intro";
 import Menu from "./components/menu/menu"
 import Work from "./components/works/works"
 import Footer from "./components/footer/footer"
+import About from "./components/About/About"
 
 function App() {
   const [menu, setmenu] = useState(false)
@@ -15,8 +16,10 @@ function App() {
       <Menu menu={menu} setmenu={setmenu}></Menu>
       <div className="section">
         <Intro></Intro>
+        {/* <Work></Work> */}
+        <About></About>
         <Portfolio></Portfolio>
-        <Work></Work>
+        
         <Contact></Contact>
         <Footer></Footer>
       </div>

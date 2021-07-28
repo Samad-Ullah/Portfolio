@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
    z-index: 3;
-   color: rgb(21, 13, 122);
+   color: rgb(62, 171, 190);
    transition: all 1s ease;
 
     .wrapper{
@@ -33,7 +33,7 @@
                 text-decoration: none;
                 font-size: 40px;
                 font-weight: bolder;
-                color: rgb(21, 13, 122);
+                color: rgb(30, 193, 199);
                 @include mobile{
                     font-size: 12px;
                 }
@@ -44,34 +44,7 @@
          
     
     }
-    .right{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        font-size: 12px;
-        font-weight: bolder;
-        @include mobile{
-            font-size: 8px;
-        }
-        .mail{
-            
-            display: flex;
-            
-            span{
-                font-weight: bold;
-            }
-        }
-        .phone{
-            display: flex;
-            
-            .span{
-                font-weight: bold;
-                
-            }
-        
-        }
-    }
+
 
     .extreme_right{
 
@@ -88,7 +61,7 @@
             span{
                 width: 100%;
                 height:3px;
-                background-color:  rgb(21, 13, 122);
+                background-color:  rgb(62, 171, 190);
                 transform-origin: left;
                 transition: all 2s ease;
 
@@ -98,7 +71,7 @@
     }
   }
  &.active{
-    background-color:rgb(21, 13, 122); 
+    background-color:rgb(62, 171, 190); 
     color: white;
 .wrapper{
     .left{
