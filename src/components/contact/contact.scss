@@ -32,6 +32,11 @@ display: flex;
 }
     img{
        height: 90%;
+
+       @include mobile{
+            width: 300px;
+            height: 300px;
+       }
        
         
 
