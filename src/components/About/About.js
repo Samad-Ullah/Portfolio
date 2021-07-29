@@ -54,7 +54,7 @@ function About() {
                     <Bar type={"HTML"}  bgcolor={"rgb(62, 171, 190)"} completed={90}></Bar>
                     <Bar type={"CSS"}  bgcolor={"rgb(62, 171, 190)"} completed={90}></Bar>
                     <Bar type={"SaaS"}  bgcolor={"rgb(62, 171, 190)"} completed={80}></Bar>
-                    <Bar type={"Node.js"}  bgcolor={"rgb(62, 171, 190)"} completed={40}></Bar>
+                    <Bar type={"Node"}  bgcolor={"rgb(62, 171, 190)"} completed={40}></Bar>
                     <Bar type={"JavaScript"}  bgcolor={"rgb(62, 171, 190)"} completed={70}></Bar>
                     <Bar type={"React"}  bgcolor={"rgb(62, 171, 190)"} completed={80}></Bar>
                     <Bar type={"Angular"}  bgcolor={"rgb(62, 171, 190)"} completed={50}></Bar>
